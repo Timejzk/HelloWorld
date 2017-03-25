@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff1121"
+        />
+
+    <Button
+        android:text="Orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff8011"
+        android:id="@+id/button2" />
+    <Button
+        android:text="Yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#fbff11"
+
+ />
+
+    <Button
+        android:text="Violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff11e3"
+ />
+    <Button
+        android:text="Blue"
+        android:id="@+id/blue"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#113dff"
+        />
+    <Button
+        android:text="Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/blue"
+        android:layout_centerInParent="true"
+        android:background="#19ff11"
+        />
+
+    <Button
+        android:text="Indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/blue"
+        android:layout_centerInParent="true"
+        android:background="#8c11ff"
+
+
+/>
+
+</RelativeLayout>
